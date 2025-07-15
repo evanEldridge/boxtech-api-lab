@@ -2,7 +2,7 @@
 
 This project is a Python-based tool that integrates with the BoxTech API to retrieve technical specifications for intermodal freight containers—including tare weight, size/type, and maximum gross mass.
 
-Retrieved data is stored in a local SQL database (SQLite or PostgreSQL), enabling easy querying, analysis, and reporting. This tool is intended to support workflows in global trade, logistics, and customs brokerage by providing fast access to verified container data.
+Retrieved data is stored in a local SQL database, enabling easy querying, analysis, and reporting. This tool is intended to support workflows in global trade, logistics, and customs brokerage by providing fast access to verified container data.
 
 ---
 
@@ -20,7 +20,7 @@ Retrieved data is stored in a local SQL database (SQLite or PostgreSQL), enablin
 
 - **Python** – scripting, API interaction, CLI/web interface
 - **BoxTech API** – to fetch real-time container specs
-- **SQLite / PostgreSQL** – for storing container records
+- **SQL Server Express** – for storing container records
 - **(Optional)** 'pandas', 'plotly', 'matplotlib' – for analytics and data visualization
 - **(Optional)** 'Flask' – for a web-based dashboard interface
 
@@ -28,7 +28,7 @@ Retrieved data is stored in a local SQL database (SQLite or PostgreSQL), enablin
 
 ## Use Case Example
 
-A customs brokerage or freight logistics company (like **Geo. S. Bush & Co.**) could use this tool to:
+A customs brokerage or freight logistics company could use this tool to:
 
 - Validate that container weights and dimensions meet port requirements
 - Generate internal reports about container usage over time
