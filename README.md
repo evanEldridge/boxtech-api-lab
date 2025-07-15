@@ -10,7 +10,7 @@ Retrieved data is stored in a local SQL database, enabling easy querying, analys
 
 - 🔗 Connects to the BoxTech API using ISO container numbers (e.g., MSCU1234567)
 - 💾 Saves container data to a SQL database for persistent storage
-- 🔍 Provides command-line or web-based interface for querying container details
+- 🔍 Provides command-line interface for querying container details
 - 📊 Supports basic analytics (e.g., average tare weight, container type breakdown)
 - ⚠️ Handles API errors, duplicates, and missing data gracefully
 
