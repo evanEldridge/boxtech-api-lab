@@ -21,8 +21,6 @@ Retrieved data is stored in a local SQL database, enabling easy querying, analys
 - **Python** – scripting, API interaction, CLI/web interface
 - **BoxTech API** – to fetch real-time container specs
 - **SQL Server Express** – for storing container records
-- **(Optional)** 'pandas', 'plotly', 'matplotlib' – for analytics and data visualization
-- **(Optional)** 'Flask' – for a web-based dashboard interface
 
 ---
 
